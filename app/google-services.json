@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "979892962454",
+    "firebase_url": "https://gymfitness-82a70.firebaseio.com",
+    "project_id": "gymfitness-82a70",
+    "storage_bucket": "gymfitness-82a70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979892962454:android:f08e8ff71bd431b4",
+        "android_client_info": {
+          "package_name": "com.example.suma.physicalfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979892962454-2bij1j5n7b351kbghs5fva8137ft7fp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.suma.physicalfitness",
+            "certificate_hash": "49a4333069f6ab5a2495f2733a5d498abca7ddd5"
+          }
+        },
+        {
+          "client_id": "979892962454-c82v3mi2f3l9kbvm332jpl5l90ric85c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "979892962454-uspbs22ie9g7suqgc3vokta0o5o0qnce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZO-mcAjtNcfbf6s2pyW9jDqE3RiLc1wo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

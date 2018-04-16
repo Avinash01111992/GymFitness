@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">979892962454-c82v3mi2f3l9kbvm332jpl5l90ric85c.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://gymfitness-82a70.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">979892962454</string>
+    <string name="google_api_key" translatable="false">AIzaSyDZO-mcAjtNcfbf6s2pyW9jDqE3RiLc1wo</string>
+    <string name="google_app_id" translatable="false">1:979892962454:android:f08e8ff71bd431b4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDZO-mcAjtNcfbf6s2pyW9jDqE3RiLc1wo</string>
+    <string name="google_storage_bucket" translatable="false">gymfitness-82a70.appspot.com</string>
+    <string name="project_id" translatable="false">gymfitness-82a70</string>
+</resources>

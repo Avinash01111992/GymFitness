@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcccc"
+    android:padding="20dp"
+    tools:context="com.example.suma.physicalfitness.Login"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update task"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Select Body-type"/>
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_tra"
+                    android:layout_width="wrap_content"
+                    android:text="lower body"
+                    android:textSize="16sp"
+
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:id="@+id/rb_cus"
+                    android:layout_width="wrap_content"
+                    android:text="upper body"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Exercises"/>
+            <!-- Spinner Element -->
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <CheckBox
+                android:layout_marginTop="20dp"
+                android:id="@+id/suat_cb"
+                android:text="Suat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:prompt="@string/spinner_title_ex"
+                />
+
+            <CheckBox
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/leg_press_cb"
+                android:layout_width="wrap_content"
+                android:text="Leg press"
+                android:layout_height="wrap_content"
+                android:prompt="@string/spinner_title_ep"
+                />
+
+                <CheckBox
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/dead_cb"
+                    android:layout_width="wrap_content"
+                    android:text="Deadlift"
+                    android:layout_height="wrap_content"
+                    android:prompt="@string/spinner_title_ep"
+                    />
+
+            </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_marginTop="20dp"
+            android:id="@+id/exten_cb"
+            android:text="Leg extension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_title_ex"
+            />
+
+        <CheckBox
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/leg_curl_bx"
+            android:layout_width="wrap_content"
+            android:text="Leg curl"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_title_ep"
+            />
+
+    </LinearLayout>
+
+
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Equipments"/>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:background="@android:color/darker_gray"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/dum_cb"
+                        android:text="dumbbells"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:prompt="@string/spinner_title_ex"
+                        />
+
+                    <CheckBox
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/kettlebells_cb"
+                        android:layout_width="wrap_content"
+                        android:text="kettlebells"
+                        android:layout_height="wrap_content"
+                        android:prompt="@string/spinner_title_ep"
+                        />
+
+                    <CheckBox
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/press_cb"
+                        android:layout_width="wrap_content"
+                        android:text="Leg "
+                        android:layout_height="wrap_content"
+                        android:prompt="@string/spinner_title_ep"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/barbell_cb"
+                        android:text="barbell"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:prompt="@string/spinner_title_ex"
+                        />
+
+                    <CheckBox
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/trapbar_cb"
+                        android:layout_width="wrap_content"
+                        android:text="trapbar"
+                        android:layout_height="wrap_content"
+                        android:prompt="@string/spinner_title_ep"
+                        />
+                    <CheckBox
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/cable_cb"
+                        android:layout_width="wrap_content"
+                        android:text="cable machine"
+                        android:layout_height="wrap_content"
+                        android:prompt="@string/spinner_title_ep"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_marginTop="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Update"
+                    android:id="@+id/task_update_btn"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
