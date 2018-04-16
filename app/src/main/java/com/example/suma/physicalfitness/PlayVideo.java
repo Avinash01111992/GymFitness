@@ -42,18 +42,18 @@ public class PlayVideo extends AppCompatActivity {
             path = "android.resource://" + getPackageName() + "/" + R.raw.suat;
         }else if(excType.trim().equalsIgnoreCase("Leg press"))
         {
-            path = "android.resource://" + getPackageName() + "/" + R.raw.suat;
+            path = "android.resource://" + getPackageName() + "/" + R.raw.legpress;
 
         }else if(excType.trim().equalsIgnoreCase("Deadlift"))
         {
-         path = "android.resource://" + getPackageName() + "/" + R.raw.suat;
+         path = "android.resource://" + getPackageName() + "/" + R.raw.deadlift;
 
         }else if(excType.trim().equalsIgnoreCase("Leg extension"))
         {
-            path = "android.resource://" + getPackageName() + "/" + R.raw.suat;
+            path = "android.resource://" + getPackageName() + "/" + R.raw.legpress;
         }else
         {
-            path = "android.resource://" + getPackageName() + "/" + R.raw.suat;
+            path = "android.resource://" + getPackageName() + "/" + R.raw.legcurl;
         }
         uri = Uri.parse(path);
         vv.setMediaController(mediacontroller);
@@ -62,7 +62,7 @@ public class PlayVideo extends AppCompatActivity {
 
 
         if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle("Video");
+            getSupportActionBar().setTitle(excType);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 

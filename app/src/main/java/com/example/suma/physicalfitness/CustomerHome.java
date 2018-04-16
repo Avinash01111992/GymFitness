@@ -61,9 +61,6 @@ public class CustomerHome extends AppCompatActivity {
     private List<CustomerTaskListPojo> cusTaskList = new ArrayList<>();
     private static int SPLASH_TIME_OUT = 1000;
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -171,9 +168,6 @@ public class CustomerHome extends AppCompatActivity {
                     startActivity(intent);
                 }
                 mDrawerLayout.closeDrawers();
-
-
-
             }
         });
 
@@ -245,7 +239,8 @@ public class CustomerHome extends AppCompatActivity {
 
     public void validateImage()
     {
-       excType = customerTaskListPojo.getExcType().toString();
+       excType = cusTaskList.get(0).getExcType().toString();
+       Log.e("excTypeImage",excType);
        Intent image = new Intent(CustomerHome.this,ViewImage.class);
        image.putExtra("excType",excType);
        startActivity(image);
@@ -253,7 +248,8 @@ public class CustomerHome extends AppCompatActivity {
 
     public void validateVideo()
     {
-        excType = customerTaskListPojo.getExcType().toString();
+        excType = cusTaskList.get(0).getExcType().toString();
+        Log.e("excTypeVideo",excType);
         Intent video = new Intent(CustomerHome.this,PlayVideo.class);
         video.putExtra("excType",excType);
         startActivity(video);
@@ -348,7 +344,6 @@ public class CustomerHome extends AppCompatActivity {
 
             // do something when the button is clicked
             public void onClick(DialogInterface arg0, int arg1) {
-
                 Intent intent = new Intent(Intent.ACTION_MAIN);
                 intent.addCategory(Intent.CATEGORY_HOME);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
