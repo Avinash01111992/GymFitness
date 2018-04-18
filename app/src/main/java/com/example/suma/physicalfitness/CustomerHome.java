@@ -167,6 +167,14 @@ public class CustomerHome extends AppCompatActivity {
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(intent);
                 }
+
+
+                if(position==1)
+                {
+                    Intent mangCustomers  = new Intent(CustomerHome.this,Chat.class);
+//                    mangCustomers.putExtra("from","report");
+                    startActivity(mangCustomers);
+                }
                 mDrawerLayout.closeDrawers();
             }
         });

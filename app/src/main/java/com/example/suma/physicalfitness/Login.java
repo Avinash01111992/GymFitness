@@ -44,10 +44,6 @@ public class Login extends AppCompatActivity {
 
     private RegistrationPojo registrationPojo;
 
-    Boolean login = false;
-    String roleCus;
-    Boolean userNameVal = false;
-    Boolean psawrd = false;
     ProgressDialog pd;
 
 
@@ -130,8 +126,8 @@ public class Login extends AppCompatActivity {
 
     public void validate() {
         for (int i = 0; i < memberList.size(); i++) {
-            Log.e("user",user);
-            Log.e("nameee",memberList.get(i).getName());
+//            Log.e("user",user);
+//            Log.e("nameee",memberList.get(i).getName());
             if(user.equalsIgnoreCase(memberList.get(i).getName())) {
                 if (pass.equalsIgnoreCase(memberList.get(i).getPw())) {
                     pd.dismiss();

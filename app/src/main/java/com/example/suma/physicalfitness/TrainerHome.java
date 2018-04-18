@@ -127,6 +127,13 @@ public class TrainerHome extends AppCompatActivity {
                     mangCustomers.putExtra("from","report");
                     startActivity(mangCustomers);
                 }
+
+                if(position==2)
+                {
+                    Intent mangCustomers  = new Intent(TrainerHome.this,Chat.class);
+//                    mangCustomers.putExtra("from","report");
+                    startActivity(mangCustomers);
+                }
                 mDrawerLayout.closeDrawers();
 
             }
