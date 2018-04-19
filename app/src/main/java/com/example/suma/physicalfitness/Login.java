@@ -134,10 +134,17 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(Login.this, "Login Successfull", Toast.LENGTH_SHORT).show();
                     if(memberList.get(i).getRo().equalsIgnoreCase("trainer"))
                     {
+                        UserDetails.username = user;
+                        UserDetails.role = memberList.get(i).getRo().toString();
+                        Log.e("role",UserDetails.role);
                         Intent gymMangr = new Intent(Login.this, TrainerHome.class);
                         startActivity(gymMangr);
                     }else
                     {
+                        UserDetails.username = user;
+                        UserDetails.role = memberList.get(i).getRo().toString();
+                        Log.e("role",UserDetails.role);
+
                         Intent gymMangr = new Intent(Login.this, CustomerHome.class);
                         gymMangr.putExtra("userName",memberList.get(i).getName());
                         startActivity(gymMangr);

@@ -130,7 +130,7 @@ public class TrainerHome extends AppCompatActivity {
 
                 if(position==2)
                 {
-                    Intent mangCustomers  = new Intent(TrainerHome.this,Chat.class);
+                    Intent mangCustomers  = new Intent(TrainerHome.this,Users.class);
 //                    mangCustomers.putExtra("from","report");
                     startActivity(mangCustomers);
                 }

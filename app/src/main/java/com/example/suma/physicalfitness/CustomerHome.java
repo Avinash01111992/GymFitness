@@ -171,7 +171,7 @@ public class CustomerHome extends AppCompatActivity {
 
                 if(position==1)
                 {
-                    Intent mangCustomers  = new Intent(CustomerHome.this,Chat.class);
+                    Intent mangCustomers  = new Intent(CustomerHome.this,Users.class);
 //                    mangCustomers.putExtra("from","report");
                     startActivity(mangCustomers);
                 }

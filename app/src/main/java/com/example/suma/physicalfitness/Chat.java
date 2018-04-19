@@ -43,7 +43,6 @@ public class Chat extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String messageText = messageArea.getText().toString();
-
                 if(!messageText.equals("")){
                     Map<String, String> map = new HashMap<String, String>();
                     map.put("message", messageText);
@@ -89,6 +88,9 @@ public class Chat extends AppCompatActivity {
 
             }
         });
+
+
+
     }
 
     public void addMessageBox(String message, int type){

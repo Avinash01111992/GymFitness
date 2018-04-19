@@ -1,4 +1,4 @@
-#Mon Apr 16 22:03:47 IST 2018
+#Thu Apr 19 19:24:38 IST 2018
 path.1=classes.dex
 path.0=classes.dex
 renamed.5=classes6.dex
@@ -7,12 +7,12 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/31
-base.4=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/34
-base.3=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/32
-base.2=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/35
-base.1=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/33
-base.0=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/36
+base.5=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/70
+base.4=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/73
+base.3=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/71
+base.2=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/74
+base.1=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/69
+base.0=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/72
 path.5=classes.dex
 path.4=classes.dex
 path.3=classes.dex
