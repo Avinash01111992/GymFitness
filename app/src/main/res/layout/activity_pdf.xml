@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<WebView
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:id="@+id/webview"
+    android:layout_height="match_parent">
 
+</WebView>
 
-    <ImageView
-        android:id="@+id/image_pdf"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/btn_okay"
-        android:layout_margin="5dp"/>
+<Button
+    android:id="@+id/btn_okay"
+    android:layout_width="match_parent"
+    android:background="@drawable/btnshape"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_margin="10dp"
+    android:text="view Report"/>
 
-    <Button
-        android:id="@+id/btn_okay"
-        android:layout_width="match_parent"
-        android:background="@drawable/btnshape"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_margin="10dp"
-        android:text="view Report"/>
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:id="@+id/progressbar"
+    android:layout_centerInParent="true"
+    android:layout_height="wrap_content" />
+
 
 </RelativeLayout>

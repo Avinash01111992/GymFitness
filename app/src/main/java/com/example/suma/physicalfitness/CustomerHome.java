@@ -164,6 +164,7 @@ public class CustomerHome extends AppCompatActivity {
                 if(position==0)
                 {
                     Intent intent = new Intent(CustomerHome.this,Pdf.class);
+                    intent.putExtra("uName",un);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(intent);
                 }

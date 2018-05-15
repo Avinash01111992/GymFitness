@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -91,6 +92,7 @@ public class ManageCustomerAdaptors extends RecyclerView.Adapter<ManageCustomerA
 
                 if(validation.trim().equalsIgnoreCase("re"))
                 {
+                    userName = moviesList.get(position).getName();
                     getDocument();
                 }else {
                     userName = moviesList.get(position).getName();
@@ -105,6 +107,7 @@ public class ManageCustomerAdaptors extends RecyclerView.Adapter<ManageCustomerA
     private void getDocument()
     {
         Intent intent = new Intent(context, GenarateReport.class);
+        Log.e("userNameAdap",userName);
         intent.putExtra("userName",userName);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);

@@ -450,7 +450,7 @@ public final class R {
         public static final int abc_textfield_search_activated_mtrl_alpha = 0x7f080056;
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f080057;
         public static final int abc_textfield_search_material = 0x7f080058;
-        public static final int notification_template_icon_bg = 0x7f0800ba;
+        public static final int notification_template_icon_bg = 0x7f0800bb;
     }
     public static final class id {
         public static final int action0 = 0x7f090006;
@@ -495,20 +495,20 @@ public final class R {
         public static final int icon = 0x7f090081;
         public static final int ifRoom = 0x7f090084;
         public static final int image = 0x7f090085;
-        public static final int info = 0x7f090088;
-        public static final int line1 = 0x7f090097;
-        public static final int line3 = 0x7f090098;
-        public static final int listMode = 0x7f090099;
-        public static final int list_item = 0x7f09009a;
-        public static final int media_actions = 0x7f0900a1;
-        public static final int middle = 0x7f0900a5;
-        public static final int multiply = 0x7f0900a9;
-        public static final int never = 0x7f0900ae;
-        public static final int none = 0x7f0900b1;
-        public static final int normal = 0x7f0900b2;
-        public static final int parentPanel = 0x7f0900bc;
-        public static final int progress_circular = 0x7f0900c6;
-        public static final int progress_horizontal = 0x7f0900c7;
+        public static final int info = 0x7f090087;
+        public static final int line1 = 0x7f090096;
+        public static final int line3 = 0x7f090097;
+        public static final int listMode = 0x7f090098;
+        public static final int list_item = 0x7f090099;
+        public static final int media_actions = 0x7f0900a0;
+        public static final int middle = 0x7f0900a4;
+        public static final int multiply = 0x7f0900a8;
+        public static final int never = 0x7f0900ad;
+        public static final int none = 0x7f0900b0;
+        public static final int normal = 0x7f0900b1;
+        public static final int parentPanel = 0x7f0900bb;
+        public static final int progress_circular = 0x7f0900c5;
+        public static final int progress_horizontal = 0x7f0900c6;
         public static final int radio = 0x7f0900c8;
         public static final int screen = 0x7f0900d8;
         public static final int scrollIndicatorDown = 0x7f0900da;
@@ -544,10 +544,10 @@ public final class R {
         public static final int title = 0x7f09010e;
         public static final int title_template = 0x7f090110;
         public static final int topPanel = 0x7f090114;
-        public static final int up = 0x7f090120;
-        public static final int useLogo = 0x7f090122;
-        public static final int withText = 0x7f09012f;
-        public static final int wrap_content = 0x7f090131;
+        public static final int up = 0x7f090122;
+        public static final int useLogo = 0x7f090124;
+        public static final int withText = 0x7f090132;
+        public static final int wrap_content = 0x7f090134;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur = 0x7f0a0000;

@@ -55,6 +55,7 @@ public class TrainerHome extends AppCompatActivity {
     private CustomerListAdaptors mAdapter;
     private  RegistrationPojo registrationPojo;
     ImageView refresh;
+    String trainerName;
 
 
     @Override
@@ -64,6 +65,8 @@ public class TrainerHome extends AppCompatActivity {
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         mDrawerList = (ListView) findViewById(R.id.drawer_list_view);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        Bundle bundle = getIntent().getExtras();
+        trainerName = bundle.getString("userName");
 
         prepareDB();
 
@@ -170,7 +173,9 @@ public class TrainerHome extends AppCompatActivity {
           public void onChildAdded(DataSnapshot dataSnapshot, String s) {
             registrationPojo =  dataSnapshot.getValue(RegistrationPojo.class);
             if(registrationPojo.getRo().equalsIgnoreCase("customer")) {
-                memberList.add(registrationPojo);
+                if(registrationPojo.getAsgndTrainer().trim().equalsIgnoreCase(trainerName)) {
+                    memberList.add(registrationPojo);
+                }
             }
             mAdapter.notifyDataSetChanged();
 

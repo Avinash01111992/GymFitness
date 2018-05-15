@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12
 MERGED from [com.google.firebase:firebase-core:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.0.aar/f2cc15384c3df059a2f344e0e7cba482/AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.volley:volley:1.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/c936a2dc27bb18d69d5c544a8688d20a/AndroidManifest.xml:2:1-11:12
 MERGED from [com.firebaseui:firebase-ui:0.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.6.0.aar/3a04f1fb8bebb6378dddf0e8ac3806ec/AndroidManifest.xml:2:1-13:12
@@ -20,6 +20,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/avina
 MERGED from [com.google.firebase:firebase-auth:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.0.aar/63a1c25885deb452e9de854718744a64/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.firebase:firebase-database:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-database-12.0.0.aar/092bbdce8e582e3bd77554ed4804a668/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-crash:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-crash-12.0.0.aar/45ed0954f020e5c06d220f010b539c00/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-storage:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-12.0.0.aar/3eda0dd566b2f2cce690c339cdf29585/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/252819cde0ad8218e78b44061cc13133/AndroidManifest.xml:17:1-54:12
 MERGED from [com.android.support:customtabs:23.4.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/customtabs-23.4.0.aar/d7903876a25ec478ac422c1cc8fcf4bc/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/68b13c0d5039050aee47bfe30b84ef10/AndroidManifest.xml:17:1-28:12
@@ -28,14 +29,13 @@ MERGED from [com.android.support:palette-v7:23.4.0] /home/avinash/.gradle/caches
 MERGED from [com.android.support:transition:26.1.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/e32d9329d851e53439a832c03d25ff53/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/f0ec0beeebaa36b4f39bd8c7732c1cd0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/03fb393fda8726464b09ce14fae332c4/AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.android.gms:play-services-auth:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.6.0.aar/ee4510f6b378946ce473f6bc7b903be5/AndroidManifest.xml:16:1-26:12
-MERGED from [com.google.firebase:firebase-storage:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.6.0.aar/4706fc48765351a17d4fe59b1e3b9ce4/AndroidManifest.xml:2:1-4:12
-MERGED from [com.google.android.gms:play-services-auth-base:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.6.0.aar/75c9dcfe58acf972f57de1b980d31f24/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.firebase:firebase-storage-common:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.6.0.aar/7c038f46ea4ca6cbaf6ce13c8be10469/AndroidManifest.xml:2:1-4:12
 MERGED from [com.google.firebase:firebase-database-connection:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-12.0.0.aar/3623af452365e92eda21c7cce15db810/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/52116ee3e33ab4bbb7dc329639f1b24c/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-auth:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.6.0.aar/ee4510f6b378946ce473f6bc7b903be5/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-base:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.6.0.aar/75c9dcfe58acf972f57de1b980d31f24/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/52116ee3e33ab4bbb7dc329639f1b24c/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/1e9334aa7bac6b5b0a80ba5a4e10be69/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-12.0.0.aar/c8d4db071f6d88499bb2ad8080e1fa70/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/2a85d9c53414561dfa2360259fd4becf/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/844c72f709314d4c9447a75bca5efeef/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/27d62515d881ba0c460a3a373d314db7/AndroidManifest.xml:17:1-31:12
@@ -50,6 +50,7 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.2] /home/avinash/.gradle/caches/tr
 MERGED from [com.google.firebase:firebase-auth-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-12.0.0.aar/a93e2ade872f7d0a82d970dab6f92f3e/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-database-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.0.aar/e3e9228e3312112cc7e1bf358e8b057a/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-crash-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-crash-license-12.0.0.aar/4df6cf51741176ef21ceada4b86ed0b6/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-12.0.0.aar/5a36b150554ed636d2544848a3a54257/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.0.aar/f866fb5d1fdc7fd1c780656e781cfcb0/AndroidManifest.xml:2:1-8:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0736ea8b2d7fa59f3dd56693de574ae5/AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.0.aar/d8d8e4411637f49a74548be550aa68a9/AndroidManifest.xml:2:1-8:12
@@ -58,21 +59,22 @@ MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /home/av
 MERGED from [com.google.firebase:firebase-iid-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.0.aar/4e3b32cb42ead2fbc0ae90835d52e111/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.0.aar/734539e654ee5710ea192a1e0ee66d46/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.0.aar/c8c726ba8e92ba80977d9a4e59e419bd/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-12.0.0.aar/a9acb28d6a80af95dbcb8b4a4ac00e5a/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/5cdcf08e71ade8381b3ea2cb271bae6d/AndroidManifest.xml:2:1-8:12
-INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml
 		INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12
 		INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12
 		INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:11-69
@@ -102,14 +104,18 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.2] /home/avinash/.gradle/caches/tr
 MERGED from [io.fabric.sdk.android:fabric:1.4.2] /home/avinash/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/4ad2e0c1978a61fabc296eeba4c2f1a3/AndroidManifest.xml:29:5-67
 	android:name
 		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:5:22-64
-meta-data#firebase_crashlytics_collection_enabled
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:7:5-9:33
-	android:value
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:9:9-30
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:8:9-63
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:6:22-77
+meta-data#firebase_crashlytics_collection_enabled
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:9:5-11:33
+	android:value
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:11:9-30
+	android:name
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:10:9-63
 application
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:11:5-45:19
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:13:5-47:19
 MERGED from [com.google.firebase:firebase-core:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.0.aar/f2cc15384c3df059a2f344e0e7cba482/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.0.aar/f2cc15384c3df059a2f344e0e7cba482/AndroidManifest.xml:5:5-20
 MERGED from [com.android.volley:volley:1.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/volley-1.0.0.aar/c936a2dc27bb18d69d5c544a8688d20a/AndroidManifest.xml:9:5-20
@@ -152,12 +158,12 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/avinash/.
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/f0ec0beeebaa36b4f39bd8c7732c1cd0/AndroidManifest.xml:27:5-38:19
 MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/03fb393fda8726464b09ce14fae332c4/AndroidManifest.xml:34:5-57:19
 MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/03fb393fda8726464b09ce14fae332c4/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.android.gms:play-services-auth:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.6.0.aar/ee4510f6b378946ce473f6bc7b903be5/AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-auth:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.6.0.aar/ee4510f6b378946ce473f6bc7b903be5/AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/52116ee3e33ab4bbb7dc329639f1b24c/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/52116ee3e33ab4bbb7dc329639f1b24c/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/1e9334aa7bac6b5b0a80ba5a4e10be69/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/1e9334aa7bac6b5b0a80ba5a4e10be69/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/2a85d9c53414561dfa2360259fd4becf/AndroidManifest.xml:22:5-26:19
@@ -188,6 +194,8 @@ MERGED from [com.google.firebase:firebase-database-license:12.0.0] /home/avinash
 MERGED from [com.google.firebase:firebase-database-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.0.aar/e3e9228e3312112cc7e1bf358e8b057a/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-crash-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-crash-license-12.0.0.aar/4df6cf51741176ef21ceada4b86ed0b6/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-crash-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-crash-license-12.0.0.aar/4df6cf51741176ef21ceada4b86ed0b6/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-12.0.0.aar/5a36b150554ed636d2544848a3a54257/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-12.0.0.aar/5a36b150554ed636d2544848a3a54257/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.0.aar/f866fb5d1fdc7fd1c780656e781cfcb0/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.0.aar/f866fb5d1fdc7fd1c780656e781cfcb0/AndroidManifest.xml:5:5-6:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0736ea8b2d7fa59f3dd56693de574ae5/AndroidManifest.xml:24:5-28:19
@@ -204,98 +212,100 @@ MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /home/a
 MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.0.aar/734539e654ee5710ea192a1e0ee66d46/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.0.aar/c8c726ba8e92ba80977d9a4e59e419bd/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-database-connection-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.0.aar/c8c726ba8e92ba80977d9a4e59e419bd/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-12.0.0.aar/a9acb28d6a80af95dbcb8b4a4ac00e5a/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-12.0.0.aar/a9acb28d6a80af95dbcb8b4a4ac00e5a/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/5cdcf08e71ade8381b3ea2cb271bae6d/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.0.aar/5cdcf08e71ade8381b3ea2cb271bae6d/AndroidManifest.xml:5:5-6:19
 	android:supportsRtl
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:16:9-41
 	android:icon
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:13:9-39
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:15:9-39
 	android:allowBackup
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:18:9-40
 activity#com.example.suma.physicalfitness.SplashScreen
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:17:9-25:20
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:19:9-27:20
 	android:theme
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:19:13-54
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:21:13-54
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:18:13-41
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:20:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:25:27-74
 activity#com.example.suma.physicalfitness.Login
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:26:9-28:57
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:28:9-30:57
 	android:theme
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:28:13-54
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:30:13-54
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:27:13-34
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:29:13-34
 activity#com.example.suma.physicalfitness.Chat
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:29:9-42
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:31:9-42
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:29:19-39
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:31:19-39
 activity#com.example.suma.physicalfitness.Users
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:30:9-43
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:32:9-43
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:30:19-40
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:32:19-40
 activity#com.example.suma.physicalfitness.DashBoard
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:31:9-33:57
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:33:9-35:57
 	android:theme
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:33:13-54
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:35:13-54
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:32:13-38
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:34:13-38
 activity#com.example.suma.physicalfitness.GymManager
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:34:9-48
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:36:9-48
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:34:19-45
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:36:19-45
 activity#com.example.suma.physicalfitness.TrainerHome
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:35:9-49
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:37:9-49
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:35:19-46
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:37:19-46
 activity#com.example.suma.physicalfitness.RegistrationForm
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:36:9-54
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:38:9-54
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:36:19-51
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:38:19-51
 activity#com.example.suma.physicalfitness.CustomerHome
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:37:9-50
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:39:9-50
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:37:19-47
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:39:19-47
 activity#com.example.suma.physicalfitness.ExerciseSheetsForm
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:38:9-56
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:40:9-56
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:38:19-53
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:40:19-53
 activity#com.example.suma.physicalfitness.UpdateCustomerTaskSheet
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:39:9-61
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:41:9-61
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:39:19-58
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:41:19-58
 activity#com.example.suma.physicalfitness.ManageCustomers
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:40:9-53
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:42:9-53
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:40:19-50
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:42:19-50
 activity#com.example.suma.physicalfitness.ViewImage
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:41:9-47
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:43:9-47
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:41:19-44
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:43:19-44
 activity#com.example.suma.physicalfitness.PlayVideo
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:42:9-47
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:44:9-47
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:42:19-44
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:44:19-44
 activity#com.example.suma.physicalfitness.GenarateReport
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:43:9-52
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:45:9-52
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:43:19-49
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:45:19-49
 activity#com.example.suma.physicalfitness.Pdf
-ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:44:9-50
+ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:46:9-50
 	android:name
-		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:44:19-38
+		ADDED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:46:19-38
 uses-sdk
 INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml
@@ -332,6 +342,8 @@ MERGED from [com.google.firebase:firebase-database:12.0.0] /home/avinash/.gradle
 MERGED from [com.google.firebase:firebase-database:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-database-12.0.0.aar/092bbdce8e582e3bd77554ed4804a668/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-crash:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-crash-12.0.0.aar/45ed0954f020e5c06d220f010b539c00/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-crash:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-crash-12.0.0.aar/45ed0954f020e5c06d220f010b539c00/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-12.0.0.aar/3eda0dd566b2f2cce690c339cdf29585/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-12.0.0.aar/3eda0dd566b2f2cce690c339cdf29585/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/252819cde0ad8218e78b44061cc13133/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.0.aar/252819cde0ad8218e78b44061cc13133/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:23.4.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/customtabs-23.4.0.aar/d7903876a25ec478ac422c1cc8fcf4bc/AndroidManifest.xml:20:5-44
@@ -348,22 +360,20 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/avinash/.
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.0.aar/f0ec0beeebaa36b4f39bd8c7732c1cd0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/03fb393fda8726464b09ce14fae332c4/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/03fb393fda8726464b09ce14fae332c4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.6.0.aar/ee4510f6b378946ce473f6bc7b903be5/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-auth:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.6.0.aar/ee4510f6b378946ce473f6bc7b903be5/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-storage:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.6.0.aar/4706fc48765351a17d4fe59b1e3b9ce4/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.6.0.aar/4706fc48765351a17d4fe59b1e3b9ce4/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-auth-base:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.6.0.aar/75c9dcfe58acf972f57de1b980d31f24/AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-auth-base:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.6.0.aar/75c9dcfe58acf972f57de1b980d31f24/AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-storage-common:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.6.0.aar/7c038f46ea4ca6cbaf6ce13c8be10469/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage-common:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.6.0.aar/7c038f46ea4ca6cbaf6ce13c8be10469/AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-database-connection:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-12.0.0.aar/3623af452365e92eda21c7cce15db810/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-database-connection:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-12.0.0.aar/3623af452365e92eda21c7cce15db810/AndroidManifest.xml:6:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/52116ee3e33ab4bbb7dc329639f1b24c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/52116ee3e33ab4bbb7dc329639f1b24c/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.6.0.aar/ee4510f6b378946ce473f6bc7b903be5/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.6.0.aar/ee4510f6b378946ce473f6bc7b903be5/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.6.0.aar/75c9dcfe58acf972f57de1b980d31f24/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.6.0.aar/75c9dcfe58acf972f57de1b980d31f24/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/52116ee3e33ab4bbb7dc329639f1b24c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/52116ee3e33ab4bbb7dc329639f1b24c/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/1e9334aa7bac6b5b0a80ba5a4e10be69/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.0.aar/1e9334aa7bac6b5b0a80ba5a4e10be69/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-12.0.0.aar/c8d4db071f6d88499bb2ad8080e1fa70/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-12.0.0.aar/c8d4db071f6d88499bb2ad8080e1fa70/AndroidManifest.xml:6:5-44
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/2a85d9c53414561dfa2360259fd4becf/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.0.aar/2a85d9c53414561dfa2360259fd4becf/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/844c72f709314d4c9447a75bca5efeef/AndroidManifest.xml:21:5-23:54
@@ -725,6 +735,16 @@ action#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/03fb393fda8726464b09ce14fae332c4/AndroidManifest.xml:54:17-80
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.0.aar/03fb393fda8726464b09ce14fae332c4/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:9:13-77
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:9.6.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.6.0.aar/ee4510f6b378946ce473f6bc7b903be5/AndroidManifest.xml:20:9-189
 	android:excludeFromRecents
@@ -751,22 +771,10 @@ ADDED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gra
 		ADDED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/52116ee3e33ab4bbb7dc329639f1b24c/AndroidManifest.xml:26:13-72
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.0.aar/52116ee3e33ab4bbb7dc329639f1b24c/AndroidManifest.xml:24:13-79
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:8:9-12:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:10:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:11:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:12:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:12.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.0.aar/f597b7b402f2b68fb73a2d326fa50c20/AndroidManifest.xml:9:13-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
+IMPLIED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-47:12 reason: com.google.android.gms.license requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/avinash/lb-work/own-pro/GymFitness/app/src/main/AndroidManifest.xml:2:1-49:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/avinash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0736ea8b2d7fa59f3dd56693de574ae5/AndroidManifest.xml:25:9-27:47
 	android:value

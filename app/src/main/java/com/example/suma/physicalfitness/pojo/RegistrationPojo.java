@@ -21,6 +21,7 @@ public class RegistrationPojo implements Serializable {
     public String mobileNumber;
     public String address;
     public String ro;
+    public String asgndTrainer;
 
 
 
@@ -29,7 +30,15 @@ public class RegistrationPojo implements Serializable {
     }
 
 
-    public RegistrationPojo(String name, String role, String email, String pw, String mobileNum,String adrs)
+    public String getAsgndTrainer() {
+        return asgndTrainer;
+    }
+
+    public void setAsgndTrainer(String asgndTrainer) {
+        this.asgndTrainer = asgndTrainer;
+    }
+
+    public RegistrationPojo(String name, String role, String email, String pw, String mobileNum, String adrs, String asTra)
     {
         this.name = name;
         this.email =email;
@@ -37,6 +46,8 @@ public class RegistrationPojo implements Serializable {
         this.pw = pw;
         this.address = adrs;
         this.ro = role;
+        this.asgndTrainer = asTra;
+
 
     }
 

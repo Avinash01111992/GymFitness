@@ -4272,6 +4272,21 @@
             ]
         },
         {
+            "outputFile": "/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/res/merged/androidTest/debug/values-id_values-id.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/avinash/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/575fa70d2ae533afc4149321c7818f2a/res/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,226,351,465,564,631,699,758,829,900,997,1070,1143,1227,1330,1394,1461",
+                        "endColumns": "170,124,113,98,66,67,58,70,70,96,72,72,83,102,63,66,138",
+                        "endOffsets": "221,346,460,559,626,694,753,824,895,992,1065,1138,1222,1325,1389,1456,1595"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/res/merged/androidTest/debug/values-el_values-el.arsc.flat",
             "map": [
                 {
@@ -4340,21 +4355,6 @@
                         "startOffsets": "2131,2341,2469,2599,2695,2765,2840,2900,2971,3044,3136,3213,3290,3382,3491,3558,3629,6633",
                         "endColumns": "209,127,129,95,69,74,59,70,72,91,76,76,91,108,66,70,148,63",
                         "endOffsets": "2336,2464,2594,2690,2760,2835,2895,2966,3039,3131,3208,3285,3377,3486,3553,3624,3773,6692"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/res/merged/androidTest/debug/values-id_values-id.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/avinash/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.14.1.aar/575fa70d2ae533afc4149321c7818f2a/res/values-id/values-id.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,226,351,465,564,631,699,758,829,900,997,1070,1143,1227,1330,1394,1461",
-                        "endColumns": "170,124,113,98,66,67,58,70,70,96,72,72,83,102,63,66,138",
-                        "endOffsets": "221,346,460,559,626,694,753,824,895,992,1065,1138,1222,1325,1389,1456,1595"
                     }
                 }
             ]

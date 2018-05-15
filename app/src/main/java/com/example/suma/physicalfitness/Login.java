@@ -138,6 +138,7 @@ public class Login extends AppCompatActivity {
                         UserDetails.role = memberList.get(i).getRo().toString();
                         Log.e("role",UserDetails.role);
                         Intent gymMangr = new Intent(Login.this, TrainerHome.class);
+                        gymMangr.putExtra("userName",memberList.get(i).getName());
                         startActivity(gymMangr);
                     }else
                     {

@@ -104,7 +104,24 @@
                 android:layout_height="wrap_content" />
         </RadioGroup>
 
-    <RelativeLayout
+        <TextView
+            android:id="@+id/tv_trin"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select trainer from the list"/>
+
+        <Spinner
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:id="@+id/trainers_spiner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           />
+
+
+        <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent">
 
