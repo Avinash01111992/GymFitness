@@ -1,23 +1,23 @@
 #Internal package file, do not edit.
-#Thu May 10 13:33:45 IST 2018
+#Thu May 24 13:28:12 IST 2018
 7.path=classes.dex
 2.base=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/assets/debug
 5.set=DEX
 0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/17
+3.base=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/15
 7.baseType=DIRECTORY
 2.set=ASSET
 1.path=crashlytics-build.properties
-4.base=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/15
+4.base=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/13
 7.set=DEX
 count=8
 5.baseType=DIRECTORY
 2.path=sample_pdf.pdf
-5.base=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/13
+5.base=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/16
 4.set=DEX
 3.path=classes.dex
-6.base=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/16
+6.base=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/transforms/dexMerger/debug/11
 3.baseType=DIRECTORY
 1.set=ASSET
 4.path=classes.dex

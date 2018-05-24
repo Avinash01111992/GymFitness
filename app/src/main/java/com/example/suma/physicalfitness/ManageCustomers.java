@@ -33,21 +33,26 @@ public class ManageCustomers extends AppCompatActivity {
     private RegistrationPojo registrationPojo;
     private List<RegistrationPojo> memberList = new ArrayList<>();
     RecyclerView recyclerView;
+    String message;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manage_customers);
         recyclerView = (RecyclerView)findViewById(R.id.recycler_view_all_customers);
         Bundle bundle = getIntent().getExtras();
-        String message = bundle.getString("from");
+      message = bundle.getString("from");
         if(message.trim().equalsIgnoreCase("report"))
         {
             validation = "re";
             title = "Upload Report";
-        }else
+        }else if(message.trim().equalsIgnoreCase("mnc"))
         {
             validation = "mn";
             title = "Manage Customers";
+        }else
+        {
+            validation = "mt";
+            title = "Manage Trainers";
         }
         prepareDB();
         if (getSupportActionBar() != null) {
@@ -79,9 +84,24 @@ public class ManageCustomers extends AppCompatActivity {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 registrationPojo =  dataSnapshot.getValue(RegistrationPojo.class);
-                if(registrationPojo.getRo().equalsIgnoreCase("customer")) {
-                    memberList.add(registrationPojo);
+
+                if(message.trim().equalsIgnoreCase("mnc"))
+                {
+                    if(registrationPojo.getRo().equalsIgnoreCase("customer")) {
+                        memberList.add(registrationPojo);
+                    }
                 }
+
+
+                if(message.trim().equalsIgnoreCase("manageTrainers"))
+                {
+                    if(registrationPojo.getRo().equalsIgnoreCase("trainer")) {
+                        memberList.add(registrationPojo);
+                    }
+                }
+
+
+
                 mAdapter.notifyDataSetChanged();
 
             }

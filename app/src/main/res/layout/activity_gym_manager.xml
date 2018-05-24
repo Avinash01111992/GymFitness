@@ -37,6 +37,18 @@
             android:textColor="@android:color/white"
             android:text="Registration"/>
 
+        <Button
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/mng_btn"
+            android:background="@drawable/btnshape"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:text="Manage Trainers"/>
+
 
     </LinearLayout>
 

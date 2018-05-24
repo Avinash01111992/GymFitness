@@ -9,12 +9,13 @@ import android.widget.Button;
 public class GymManager extends AppCompatActivity {
 
 
-    Button registrationBtn;
+    Button registrationBtn,mngTrainerBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gym_manager);
         registrationBtn = (Button)findViewById(R.id.register_tranr_btn);
+        mngTrainerBtn = (Button)findViewById(R.id.mng_btn);
 
 
 
@@ -28,6 +29,15 @@ public class GymManager extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent regCus = new Intent(GymManager.this, RegistrationForm.class);
+                startActivity(regCus);
+            }
+        });
+
+        mngTrainerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent regCus = new Intent(GymManager.this, ManageCustomers.class);
+                regCus.putExtra("from","manageTrainers");
                 startActivity(regCus);
             }
         });

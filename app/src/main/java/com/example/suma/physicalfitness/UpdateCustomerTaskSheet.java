@@ -259,8 +259,8 @@ public class UpdateCustomerTaskSheet extends AppCompatActivity {
             eqp6 = "";
         }
 
-        listOfExc = exc1 + " " + exc2  + " " + exc3  + " " + exc4 +" " + exc5;
-        listOfEqp = eqp1 + " " +  eqp2 + " " + eqp3 + " " + eqp4 + " " + eqp5 + " " + eqp6 ;
+        listOfExc = exc1 + "," + exc2  + "," + exc3  + "," + exc4 +"," + exc5;
+        listOfEqp = eqp1 + "," +  eqp2 + "," + eqp3 + "," + eqp4 + "," + eqp5 + "," + eqp6 ;
 
         Log.e("listOfEqp", listOfEqp);
         Log.e("listOfExc", listOfExc);

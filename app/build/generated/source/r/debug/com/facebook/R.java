@@ -140,32 +140,32 @@ public final class R {
         public static final int com_facebook_tooltip_bubble_view_top_pointer = 0x7f090049;
         public static final int confirmation_code = 0x7f09004a;
         public static final int display_always = 0x7f09005e;
-        public static final int inline = 0x7f090088;
-        public static final int large = 0x7f09008e;
-        public static final int left = 0x7f090091;
-        public static final int messenger_send_button = 0x7f0900a3;
-        public static final int never_display = 0x7f0900ae;
-        public static final int normal = 0x7f0900b1;
-        public static final int open_graph = 0x7f0900b5;
-        public static final int page = 0x7f0900b8;
-        public static final int progress_bar = 0x7f0900c4;
-        public static final int right = 0x7f0900d2;
-        public static final int small = 0x7f0900ee;
-        public static final int standard = 0x7f0900fb;
-        public static final int top = 0x7f090113;
-        public static final int unknown = 0x7f090121;
+        public static final int inline = 0x7f090089;
+        public static final int large = 0x7f09008f;
+        public static final int left = 0x7f090092;
+        public static final int messenger_send_button = 0x7f0900a4;
+        public static final int never_display = 0x7f0900b0;
+        public static final int normal = 0x7f0900b3;
+        public static final int open_graph = 0x7f0900b7;
+        public static final int page = 0x7f0900ba;
+        public static final int progress_bar = 0x7f0900c6;
+        public static final int right = 0x7f0900d4;
+        public static final int small = 0x7f0900f0;
+        public static final int standard = 0x7f0900fd;
+        public static final int top = 0x7f090115;
+        public static final int unknown = 0x7f090123;
     }
     public static final class layout {
         public static final int com_facebook_activity_layout = 0x7f0b002e;
         public static final int com_facebook_device_auth_dialog_fragment = 0x7f0b002f;
         public static final int com_facebook_login_fragment = 0x7f0b0030;
         public static final int com_facebook_tooltip_bubble = 0x7f0b0031;
-        public static final int messenger_button_send_blue_large = 0x7f0b004c;
-        public static final int messenger_button_send_blue_round = 0x7f0b004d;
-        public static final int messenger_button_send_blue_small = 0x7f0b004e;
-        public static final int messenger_button_send_white_large = 0x7f0b004f;
-        public static final int messenger_button_send_white_round = 0x7f0b0050;
-        public static final int messenger_button_send_white_small = 0x7f0b0051;
+        public static final int messenger_button_send_blue_large = 0x7f0b004d;
+        public static final int messenger_button_send_blue_round = 0x7f0b004e;
+        public static final int messenger_button_send_blue_small = 0x7f0b004f;
+        public static final int messenger_button_send_white_large = 0x7f0b0050;
+        public static final int messenger_button_send_white_round = 0x7f0b0051;
+        public static final int messenger_button_send_white_small = 0x7f0b0052;
     }
     public static final class string {
         public static final int com_facebook_device_auth_instructions = 0x7f0e002a;

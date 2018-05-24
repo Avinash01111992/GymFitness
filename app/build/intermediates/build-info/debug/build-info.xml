@@ -2,30 +2,59 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1526366996909"
+    timestamp="1527148588377"
     token="8969100223426429675"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="538" />
+        duration="8430" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="48" />
+        duration="1589" />
     <task
         name="verifier"
-        duration="1" />
+        duration="211" />
 
     <artifact
+        location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
         location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
         location="/home/avinash/lb-work/own-pro/GymFitness/app/build/outputs/apk/debug/app-debug.apk"
@@ -33,25 +62,10 @@
 
     <build
         build-mode="FULL"
-        timestamp="1526365239110"
+        timestamp="1527148588377"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -60,34 +74,28 @@
             location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1526366810611"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1526366996909"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/avinash/lb-work/own-pro/GymFitness/app/build/outputs/apk/debug/app-debug.apk"

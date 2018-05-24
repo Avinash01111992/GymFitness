@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu May 10 13:33:24 IST 2018
+#Thu May 24 13:26:43 IST 2018
 1.base=/home/avinash/lb-work/own-pro/GymFitness/app/build/intermediates/assets/debug
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
